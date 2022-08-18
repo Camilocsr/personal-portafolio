@@ -1,0 +1,20 @@
+$navbar-light-color: white;
+$navbar-light-active-color: white;
+$navbar-light-hover-color: darkmagenta;
+
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+.bg-navbar-backgraund{
+    @include gradient-y(
+        $start-color: black, 
+        $end-color: black, 
+        $start-percent: 0%, 
+        $end-percent: 100%)
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss" 
